@@ -18,6 +18,12 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, see <https://www.gnu.org/licenses/>
+#
+# Copyright 2020 Claudio Kuenzler
+# Copyright 2020 Remo Cortellucci
+#
+# History:
+# 20200506: Created script
 ###########################################################################
 $Services = @('Server','Vpn Addressing','Vpn Connectivity','Services')
 $checkstatus=0
