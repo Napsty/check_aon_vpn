@@ -15,7 +15,7 @@ And place the script itself into `NSCLIENT_PATH\scripts`, e.g. `C:\Program Files
 The defined NRPE command `check_aon_vpn` can now be remotely executed with `check_nrpe`:
 
 ```
-$ /usr/lib/nagios/plugins/check_nrpe -H inf-aon01-p -c check_aon_vpn
+$ /usr/lib/nagios/plugins/check_nrpe -H aonserver -c check_aon_vpn
 Always On VPN OK - All Services OK (Server Vpn Addressing Vpn Connectivity Services)
 ```
 
