@@ -6,7 +6,7 @@ In your nsclient.ini (or another included ini file included in nsclient.ini) def
 
 ```
 [/settings/external scripts/scripts]
-check_aon_vpn=scripts\\check_aon_vpn.ps1
+check_aon_vpn = cmd /c echo scripts\check_aon_vpn.ps1; exit($lastexitcode) | powershell.exe -command -
 ```
 
 And place the script itself into `NSCLIENT_PATH\scripts`, e.g. `C:\Program Files\NSclient++\scripts`.
